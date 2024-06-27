@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>My Cash Register</title>
+  </head>
+  
+  <body>
+    <header>
+
+    </header>
+
+    <main>
+      <div id="name-container">     
+        <h1>Cash Register</h1>
+      </div>
+
+      <div id="main-container">
+        <div id="rule-div">
+          <h2>How To Use</h2>
+          <p>
+            Enter any amount of cash you want to give the cashier into the input field below.<br>
+            The cash register itself can be used to set a price by using the numeric buttons.<br>
+            The comma button can be used to display a price in decimals.<br>
+            Make sure to click the ✔-Symbol after typing in a price total or else you won't proceed with the calculation.<br> 
+            You need to set the price.<br>
+            To clear the price field click the ✘.
+          </p>
+        </div>
+        <div id="calc-container">
+          <input id="cash" type="number" placeholder="Enter amount"></input>
+          <button id="purchase-btn">Buy</button>
+          <div id="change-due"></div>
+        </div>
+        <div id="register-img">
+          <div id="output-div">
+
+          </div>
+          <div id="connector-div">
+            
+          </div>
+          <div id="button-container-div">
+            <div id="buttons-div">
+              <button class="btn" id="btn1">1</button>
+              <button class="btn" id="btn2">2</button>
+              <button class="btn" id="btn3">3</button>
+              <button class="btn" id="btn4">4</button>
+              <button class="btn" id="btn5">5</button>
+              <button class="btn" id="btn6">6</button>
+              <button class="btn" id="btn7">7</button>
+              <button class="btn" id="btn8">8</button>
+              <button class="btn" id="btn9">9</button>
+              <button class="btn" id="btn0">0</button>
+              <button class="btn" id="btnNO">✘</button>
+              <button class="btn" id="btnC">.</button>
+              <button class="btn" id="btnYES">✔</button>
+            </div>
+          </div>
+          <div id="cashout-container">
+            <div id="drawer-change-handle">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      
+    </footer>
+    
+    <script src="./assets/js/script.js"></script>
+
+  </body>
+
+</html>
